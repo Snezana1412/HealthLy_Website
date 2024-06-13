@@ -1,3 +1,5 @@
+import About from "../../components/About/About";
+import Faqs from "../../components/Faqs/Faqs";
 import AppFeatures from "../../components/Features/AppFeatures";
 import { Features } from "../../components/Features/Features";
 import Header from "../../components/Header/Header";
@@ -12,6 +14,9 @@ function Home() {
       <Features />
       <Hero title='bg-pills' />
       <AppFeatures />
+      <About />
+      <Hero title='awesome-screen' className='overlay ptb-120' />
+      <Faqs />
     </div>
   );
 }

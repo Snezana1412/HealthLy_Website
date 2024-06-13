@@ -29,3 +29,12 @@
     margin-bottom: 10px;
   }
 }
+.section-heading {
+  margin: 0 auto 80px;
+  width: 60%;
+}
+@media (min-width: 992px) and (max-width: 1169px) {
+  .section-heading {
+    width: 70%;
+  }
+}

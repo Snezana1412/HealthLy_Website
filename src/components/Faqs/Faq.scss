@@ -1,0 +1,85 @@
+.faq-right-img-mockup {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  top: 5vh;
+  img {
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+}
+.faq-content-wrapper {
+  position: relative;
+  &:before {
+    background-color: #70798f;
+    content: "";
+    height: calc(100% - 60px);
+    left: -40px;
+    position: absolute;
+    top: 30px;
+    width: 1px;
+  }
+}
+.panel:first-child {
+  margin-top: 0;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1086bdv-MuiPaper-root-MuiAccordion-root {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  &:before {
+    content: none;
+  }
+}
+.MuiPaper-root {
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  position: relative;
+  &:before {
+    content: none;
+  }
+  &:after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(
+        top,
+        #22a6c0 0%,
+        #21dfc8 100%
+      ) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(to bottom, #22a6c0 0%, #21dfc8 100%) repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+  h4 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #4c5462;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4c5462;
+    margin-bottom: 15px;
+  }
+}
+.MuiButtonBase-root {
+  &:before {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50px;
+    content: "";
+    height: 15px;
+    left: -48px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 15px;
+  }
+}

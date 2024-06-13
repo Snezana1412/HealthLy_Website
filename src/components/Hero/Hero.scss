@@ -1,11 +1,19 @@
 #bg-pills {
-  background: rgba(0, 0, 0, 0) url("../../assets/images/pills-bg.jpg") no-repeat
+  background: rgba(0, 0, 0, 0) url("src/assets/images/pills-bg.jpg") no-repeat
     scroll;
   min-height: 660px;
   background-size: cover;
   background-position: center center;
 }
-
+#awesome-screen {
+  background: rgba(0, 0, 0, 0) url("src/assets/images/bg-faq.jpg") no-repeat
+    scroll center center / cover;
+  min-height: 600px;
+}
+.overlay {
+  position: relative;
+  z-index: 0;
+}
 @media (max-width: 991px) and (min-width: 768px) {
   #bg-pills {
     background-position: 68% center;
