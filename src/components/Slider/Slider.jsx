@@ -29,14 +29,14 @@ export default function Slider() {
     <Swiper
       className='mySwiper'
       modules={[Navigation, Pagination]}
-      spaceBetween={50}
-      slidesPerView={1}
+      spaceBetween={250}
+      // slidesPerView={1}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      // scrollbar={{ draggable: true }}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}>
       <SwiperSlide>
-        <Grid container spacing={2}>
+        <Grid container spacing={5}>
           <Grid item xs={1} sm={6} md={6}>
             <div className='slider-text'>
               <h1 className='fade-in'>FINALLY, there is HealthLy!</h1>

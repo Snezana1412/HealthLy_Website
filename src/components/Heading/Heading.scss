@@ -1,0 +1,31 @@
+.section-heading {
+  margin-bottom: 0;
+  h2 {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    &:after {
+      background: rgba(0, 0, 0, 0) url("../../assets/images/line-shape.png")
+        no-repeat scroll 0 0;
+      content: "";
+      height: 11px;
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 73px;
+    }
+  }
+  .quotes {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    font-style: italic;
+  }
+  .section-heading p {
+    margin-bottom: 10px;
+  }
+}

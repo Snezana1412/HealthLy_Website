@@ -1,11 +1,15 @@
-import Header from "./components/Header/Header";
-import SliderWrapper from "./components/Slider/SliderWrapper";
+import { Route, Routes } from "react-router-dom";
+import { FeaturesProvider } from "./contexts/featuresContext";
+import Home from "./pages/Home/Home";
 
 export default function App() {
   return (
-    <div>
-      <Header />
-      <SliderWrapper />
+    <div className='App'>
+      <FeaturesProvider>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </FeaturesProvider>
     </div>
   );
 }

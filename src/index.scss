@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+@import "./styles/css/icofont.css";
+
 body {
   color: #4c5462;
   font-family: "Nunito Sans", sans-serif;
@@ -5,4 +8,37 @@ body {
   font-style: normal;
   font-size: 14px;
   margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #4c5462;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 700;
+}
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4c5462;
+  margin-bottom: 15px;
+}
+.text-center {
+  text-align: center;
+}
+.ptb-120 {
+  padding: 120px 0;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .ptb-120 {
+    padding: 80px 0;
+  }
 }

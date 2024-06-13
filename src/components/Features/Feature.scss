@@ -1,0 +1,125 @@
+#awesome-features-area {
+  padding: 80px 0;
+  background: rgba(0, 0, 0, 0) url("../../assets/images/1.jpg") no-repeat scroll
+    center center / cover;
+  margin-top: -1px;
+  &::after {
+    background-color: rgba(245, 247, 251, 1);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}
+.features {
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+
+.awesome-feature {
+  margin-top: 80px;
+}
+.media-left {
+  padding-right: 20px;
+}
+.media-body,
+.media-left,
+.media-right {
+  display: table-cell;
+  vertical-align: top;
+}
+.awesome-feature:hover .awesome-feature-icon i {
+  background: transparent;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+.awesome-feature-icon span {
+  display: block;
+  height: 60px;
+  margin-left: 10px;
+  position: relative;
+  width: 60px;
+  &:after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(
+        left,
+        #22a6c0 0%,
+        #21dfc8 100%
+      ) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(to right, #22a6c0 0%, #21dfc8 100%) repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+}
+.awesome-feature-icon i {
+  background-color: #f5f7fa;
+  border-radius: 50%;
+  color: #4c5462;
+  display: inline-block;
+  font-size: 24px;
+  height: calc(100% - 2px);
+  left: 1px;
+  line-height: 58px;
+  position: relative;
+  text-align: center;
+  top: 1px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: calc(100% - 2px);
+  z-index: 1;
+}
+
+.asesome-feature-details {
+  h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2b323f;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  p {
+    margin-top: 15px;
+  }
+}
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .awesome-feature {
+    margin-top: 50px;
+  }
+  .media-left {
+    padding-right: 15px;
+  }
+}
+
+#app-features-area {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  h5 {
+    font-size: 18px;
+    color: #2b323f;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0 0 10px;
+  }
+}
