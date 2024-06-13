@@ -122,4 +122,38 @@
   p {
     margin: 0 0 10px;
   }
+  .single-feature {
+    padding: 30px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      background-color: #fff;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      &:after {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      }
+    }
+    &:after {
+      background: rgba(0, 0, 0, 0) -webkit-linear-gradient(
+          left,
+          #22a6c0 0%,
+          #21dfc8 100%
+        ) repeat scroll 0 0;
+      background: rgba(0, 0, 0, 0)
+        linear-gradient(to right, #22a6c0 0%, #21dfc8 100%) repeat scroll 0 0;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 0;
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      position: absolute;
+      right: 0;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      width: 100%;
+    }
+  }
 }
