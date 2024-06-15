@@ -1,0 +1,40 @@
+#app-download-area {
+  position: relative;
+  &:after {
+    background: rgba(0, 0, 0, 0) url("src/assets/images/Phone.png") no-repeat
+      scroll right bottom;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .download-app {
+    position: relative;
+    z-index: 1;
+    h1 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 48px;
+      margin: 0.67em 0;
+    }
+    p {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+      margin: 0 0 10px;
+    }
+  }
+}
+.blue-grad-bg {
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(
+      left,
+      #22a6c0 0%,
+      #21dfc8 100%
+    ) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #22a6c0 0%, #21dfc8 100%) repeat scroll 0 0;
+}
