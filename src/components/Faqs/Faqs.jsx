@@ -13,7 +13,7 @@ function Faqs() {
       setFaqsState(faqs);
     }, 1000);
   }, []);
-  console.log(faqsState);
+
   return (
     <section id='faq-area' className='ptb-120'>
       <Container maxWidth='lg'>
@@ -23,7 +23,15 @@ function Faqs() {
           author='DEEPAK CHOPRA'
         />
         <Grid container spacing={5}>
-          <Grid item xs={1} sm={6} md={6} style={{ position: "relative" }}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            style={{ position: "relative" }}
+            sx={{
+              display: { xs: "none", md: "block" },
+            }}>
             <div className='faq-right-img-mockup'>
               <img
                 src='src/assets/images/app-screen.png'
@@ -32,7 +40,7 @@ function Faqs() {
               />
             </div>
           </Grid>
-          <Grid item xs={1} sm={6} md={6}>
+          <Grid item xs={12} sm={12} md={6}>
             <div className='faq-content-wrapper'>
               {faqsState?.map((faq, index) => (
                 <Faq key={index} faq={faq} />

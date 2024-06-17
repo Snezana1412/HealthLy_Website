@@ -25,6 +25,9 @@
 
 .awesome-feature {
   margin-top: 80px;
+  button {
+    margin-right: 10px;
+  }
 }
 .media-left {
   padding-right: 20px;
@@ -156,4 +159,7 @@
       width: 100%;
     }
   }
+}
+.textarea.MuiTextarea-textarea.css-sws92j-JoyTextarea-textarea:focus-visible {
+  outline: none !important;
 }

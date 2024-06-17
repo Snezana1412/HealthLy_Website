@@ -11,7 +11,7 @@ function About() {
           quotes='At HealthLy, our mission is to save lives and improve the overall health of people worldwide. We have developed the HealthLy app with the purpose of empowering individuals to take full control of their health data and adopt healthy habits.'
         />
         <Grid container spacing={5}>
-          <Grid item xs={1} sm={6} md={6}>
+          <Grid item xs={12} sm={12} md={6}>
             <div className='about-app mt-100'>
               <h3>Discover the Benefits of HealthLy</h3>
               <p>
@@ -44,7 +44,7 @@ function About() {
               </div>
             </div>
           </Grid>
-          <Grid item xs={1} sm={6} md={6}>
+          <Grid item xs={12} sm={12} md={6}>
             <div className='about-app-mockup'>
               <img
                 src='src/assets/images/side-mobile.png'

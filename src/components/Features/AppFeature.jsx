@@ -1,7 +1,4 @@
-import AppFeatImg from "../../assets/images/app-feature-1.png";
-
 function AppFeature({ feature }) {
-  console.log(AppFeatImg);
   return (
     <div className='single-feature media'>
       <div className='feature-icon media-left'>

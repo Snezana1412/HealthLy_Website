@@ -9,7 +9,7 @@ function Download() {
         {/* <div className='row'>
           <div className='col-sm-7'> */}
         <Grid container spacing={5}>
-          <Grid item xs={1} sm={7} md={7}>
+          <Grid item xs={12} sm={7} md={7}>
             <div className='download-app'>
               <h1>Download HealthLy Today</h1>
               <p>

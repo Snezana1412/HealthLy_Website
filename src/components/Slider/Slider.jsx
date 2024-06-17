@@ -24,7 +24,7 @@ export default function Slider() {
   useEffect(() => {
     setIsLoaded(true);
   }, [isLoaded]);
-  console.log(isLoaded);
+  //console.log(isLoaded);
   return (
     <Swiper
       className='mySwiper'
@@ -33,8 +33,9 @@ export default function Slider() {
       // slidesPerView={1}
       pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}>
+      // onSlideChange={() => console.log("slide change")}
+      // onSwiper={(swiper) => console.log(swiper)}
+    >
       <SwiperSlide>
         <Grid container spacing={5}>
           <Grid item xs={1} sm={6} md={6}>
